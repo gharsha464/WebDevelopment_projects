@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Task Management Dashboard</title>
+</head>
+<body>
+<div class="container">
+  <h1>Task Management Dashboard</h1>
+  <div class="input-container">
+    <input type="text" id="taskInput" placeholder="Enter task">
+    <button id="addTaskBtn">Add Task</button>
+  </div>
+  <select id="filterSelect">
+    <option value="all">All Tasks</option>
+    <option value="active">Active Tasks</option>
+    <option value="completed">Completed Tasks</option>
+  </select>
+  <ul id="taskList" class="task-list"></ul>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
